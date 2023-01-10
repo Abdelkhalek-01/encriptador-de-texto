@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles2.css" />
+    <title>Encriptador</title>
+  </head>
+  <body>
+    <div class="main">
+      <div>
+        <!--Left Side -->
+        <div>
+          <img class="victor1" src="./Images/Logo-1.png" alt="" />
+
+          <textarea id="textArea" name="textArea" rows="6" cols="50">
+</textarea
+          >
+        </div>
+
+        <div>
+          <img class="soloimg" src="./Images/Vector (1).png" />
+          <p class="solo">Solo letras minúsculas y sin acentos</p>
+        </div>
+
+        <div class="frame3">
+          <button class="btn1" onClick="encrypt()">Encriptar</button>
+          <button class="btn2" onClick="decrypt()">Desencriptar</button>
+        </div>
+
+        <!--Right Side -->
+        <div>
+          <div class="right">
+            <textarea id="textArea2"  name="textArea2" rows="400" cols="80">
+</textarea
+            >
+          </div>
+          <div class="rightB2">
+            <button class="btnCopy" onClick="copyText()">Copiar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/index.js"></script>
+  </body>
+</html>
